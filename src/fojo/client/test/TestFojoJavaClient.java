@@ -20,7 +20,7 @@ public class TestFojoJavaClient extends
 	@Override
 	protected void setUp() throws Exception {
 		super.setUp();
-		this.fojoApi = new FojoAPI();
+		this.fojoApi = FojoAPI.getInstance();
 	}
 
 	public void testFojoEntry() {
